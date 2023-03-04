@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;1,400&family=Open+Sans:wght@300&family=Oswald&family=PT+Sans&family=Poppins:wght@700&family=Raleway:ital,wght@0,500;1,500&family=Roboto+Condensed:ital,wght@0,700;1,400&family=Roboto+Slab:wght@100;300;400;700;800;900&family=Work+Sans:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Spartan', sans-serif;
+
+
+
+}
+
+h1 {
+
+ font-size: 50px;
+ line-height: 64px;
+ color: black;
+
+}
+h2 {
+
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+   
+   }
+h4 {
+
+    font-size: 20px;
+    
+    color: black;
+   
+   }
+ h6 {
+    font-weight: 700;
+    font-size: 12px;
+    
+   
+   }
+
+   p {
+
+    font-size: 16px;
+    
+    color: rgb(45, 99, 193);
+   
+   }
+   
+
+   .section-p1{
+      padding: 40px 80px;
+
+   }
+   .section-m1{
+    margin: 40px 0;
+
+ }
+
+ body{
+width: 100%;
+
+ }
+
+ #header{
+
+  
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px 80px;
+ background:rgb(55, 128, 238);
+ 
+ box-shadow: 10px 10px 5px lightblue;
+
+
+ }
+ .resize{
+   width: 300px;
+   height: auto;
+
+ }
+
+ #navbar{
+ 
+ display: flex;
+ align-items: center;
+ justify-content:center;
+
+
+ 
+
+
+ }
+ #navbar li{
+
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+
+ }
+
+ #navbar li a{
+text-decoration: none;
+font-size: 16px;
+font-weight:600 ;
+color: rgb(242, 232, 232);
+transition: 0.3s ease;
+
+ }
+
+ #navbar li a:hover{
+
+ color: rgb(149, 195, 243);
+
+ }
+ #navbar li a:hover,
+ #navbar li a.active{
+    color: rgb(55, 7, 246);;
+
+
+ }
+
+
+ #navbar li a.active::after,
+ #navbar li a:hover::after{
+
+     content: "";
+     width: 30%;
+     height: 2px;
+     background: rgb(247, 247, 249);
+     position: absolute;
+     bottom: -4px;
+     left: 20px;
+  
+
+
+ }
+
+ #hero
+ 
+{
+   left: 0;
+    
+    margin-top: -100px;
+    line-height: 45px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+#hero h4{
+   font-size: 40px;
+   color: rgb(5, 73, 122);
+}
+
+#hero p{
+   font-size: 20px;
+   color: rgb(5, 73, 122);
+}
+
+
+#hero button{
+   background-color: #0665ea; 
+   border: none;
+   color: white;
+   padding: 15px 50px;
+   text-align: center;
+   
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 12px;
+   transition-duration: 0.4s;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+
+}
+
+#hero button:hover{
+
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
